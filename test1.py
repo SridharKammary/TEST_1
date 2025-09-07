@@ -5,3 +5,6 @@ for i in arr:
 arr2=[i*i for i in arr]
 for i in arr2:
     print(i)
+
+arr2.filter(lambda x:x%2==0)
+print(arr2)    
