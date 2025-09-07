@@ -7,4 +7,8 @@ for i in arr2:
     print(i)
 
 arr2.filter(lambda x:x%2==0)
-print(arr2)    
+print(arr2)   
+#filter
+arr3=list(filter(lambda x:x%2==0,arr)) 
+for i in arr3:
+    print(i)
